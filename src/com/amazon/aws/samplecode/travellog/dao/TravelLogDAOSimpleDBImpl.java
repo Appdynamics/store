@@ -27,7 +27,7 @@ import com.amazon.aws.samplecode.travellog.util.StageUtils;
 public class TravelLogDAOSimpleDBImpl implements TravelLogDAO {
 
     private static Map<String, String> properties = new HashMap<String, String>();
-    static {   
+    static {
         properties.put("lobBucketName", S3StorageManager.getKey().toLowerCase() + "-travellog-lob" + StageUtils.getResourceSuffixForCurrentStage());
     }
 
