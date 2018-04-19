@@ -1,0 +1,6 @@
+.idea/**
+*.ipr
+*.iws
+.DS_Store
+target/**
+WebContent/WEB-INF/classes/**
