@@ -28,6 +28,7 @@ public class TravelLogDAOSimpleDBImpl implements TravelLogDAO {
 
     private static Map<String, String> properties = new HashMap<String, String>();
     static {
+        //bucketname
         properties.put("lobBucketName", S3StorageManager.getKey().toLowerCase() + "-travellog-lob" + StageUtils.getResourceSuffixForCurrentStage());
     }
 
