@@ -26,7 +26,7 @@ import com.amazon.aws.samplecode.travellog.util.StageUtils;
 
 
 /**
- * change_me
+ * changemeagain
  * @author aleftik
  * @version 1.0
  *
@@ -40,7 +40,7 @@ public class TravelLogDAOSimpleDBImpl implements TravelLogDAO {
     }
 
     public TravelLogDAOSimpleDBImpl() {
-
+q
     }
 
     private static EntityManagerFactory factory = Persistence.createEntityManagerFactory("travellog");
