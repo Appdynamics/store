@@ -26,7 +26,7 @@ import com.amazon.aws.samplecode.travellog.util.StageUtils;
 
 
 /**
- * change_me
+ * changemeagain
  * @author aleftik
  * @version 1.0
  *
