@@ -7,6 +7,8 @@
 <%@ taglib prefix="form" uri="http://www.springframework.org/tags/form" %>
 <%@ taglib prefix="spring" uri="http://www.springframework.org/tags" %>
 <%@page import="org.springframework.security.web.authentication.UsernamePasswordAuthenticationFilter"%><html><head>
+<script src="//d2wy8f7a9ursnm.cloudfront.net/v4/bugsnag.min.js"></script>
+<script>window.bugsnagClient = bugsnag('58b24c8915b9d6c0d19ce29e9ec968a5')</script>
 <script charset='UTF-8'>
 window['adrum-start-time'] = new Date().getTime();
 (function(config){
